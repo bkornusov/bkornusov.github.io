@@ -1,0 +1,7 @@
+.navbar-body {
+  background-color: skyblue;
+  position: fixed;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+}
