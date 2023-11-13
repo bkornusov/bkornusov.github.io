@@ -1,7 +1,98 @@
 .navbar-body {
-  background-color: skyblue;
-  position: fixed;
-  height: 100%;
-  text-align: center;
+  background-color: rgb(11, 83, 127);
+  position: absolute;
+  display: flex;
+  vertical-align: middle;
+  height: 100px;
+  width: 100%;
+  text-align: start;
+}
+
+.profile-picture {
+  width: 75px;
+  height: 75px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline;
+}
+
+.nav-items {
+  margin-bottom: 0;
+  display: block;
+  position: relative;
   align-items: center;
+}
+
+.nav-item {
+  display: block;
+  padding: 1em;
+  vertical-align: middle;
+  list-style: none;
+  float: left;
+}
+
+.nav-item a {
+  color: azure;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+#btn-drop-down {
+  display: none;
+}
+
+@media screen and (min-width: 581px) {
+  .nav-items {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 580px) {
+
+  .navbar-body {
+    justify-content: space-between;
+  }
+
+  #btn-drop-down {
+    display: block;
+    float: right;
+    font-size: 2rem;
+    color: azure;
+    overflow: auto;
+  }
+
+  #drop-down-inactive {
+    display: block;
+  }
+
+  #drop-down-active {
+    display: none;
+  }
+
+  #nav-items {
+    display: none;
+  }
+
+  .nav-items {
+    top: 120px;
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    padding-left: 0px;
+    left: 0px !important;
+    background-color: rgb(11, 83, 127);
+  }
+
+  .nav-items::after {
+    visibility: visible;
+  }
+
+  .nav-item {
+    padding-left: 1.2em;
+    border: rgb(12, 43, 65);
+    border-radius: 1em;
+    border-width: 5px;
+    width: 100%;
+  }
 }

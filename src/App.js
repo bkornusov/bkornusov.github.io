@@ -8,11 +8,11 @@ function App() {
   return (
     <div className="App">
       <body className="">
-        <div className="row">
-          <div className="col-sm-3" id="sidebar-wrapper">
+        <div className="">
+          <div className="d-block" id="navbar-wrapper">
             <Navbar />
           </div>
-          <div className="col-sm-9" id="body-wrapper">
+          <div className="d-block" id="body-wrapper">
             <Home />
           </div>
         </div>

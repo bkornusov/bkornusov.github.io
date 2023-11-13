@@ -32,7 +32,17 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+#navbar-wrapper {}
+
+#body-wrapper {
+  padding-top: 100px;
+  background-color: #282c34;
+  width: 100%;
+  height: 4000px;
 }
