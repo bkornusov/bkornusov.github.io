@@ -1,4 +1,4 @@
-# [bkornusov.github.io/portfolio](bkornusov.github.io/portfolio)
+# [bkornusov.github.io/portfolio](https://bkornusov.github.io/portfolio)
 
 ### Portfolio Website for potential recruiters
 
