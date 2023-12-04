@@ -8,10 +8,13 @@ import "./index.css";
 
 const Home = () => {
   return (
-    <div className="home-body d-flex">
+    <div className="home-body">
       <About />
+      <hr />
       <Experience />
+      <hr />
       <Education />
+      <hr />
       <Projects />
     </div>
   );

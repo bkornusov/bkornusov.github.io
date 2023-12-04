@@ -3,7 +3,7 @@ import technologies from "../data/technologies";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="section" id="about">
       <p className="about-items">
         <span className="title">Batyr Kornusov</span>
         <br />

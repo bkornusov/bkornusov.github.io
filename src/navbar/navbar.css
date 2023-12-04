@@ -1,6 +1,5 @@
 .navbar-body {
   background-color: rgb(11, 83, 127);
-  position: absolute;
   display: flex;
   vertical-align: middle;
   height: 100px;
@@ -13,6 +12,8 @@
   height: 75px;
   background-color: white;
   border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 50%;
   display: inline;
 }
 

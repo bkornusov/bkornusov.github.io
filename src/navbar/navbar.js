@@ -6,9 +6,7 @@ function Navbar() {
     <div className="navbar-body align-items-center ps-3 pe-3">
       <a href="#" className="">
         <img
-          src={
-            "https://media.licdn.com/dms/image/D4E35AQEslUR1RRUV0w/profile-framedphoto-shrink_400_400/0/1681089791771?e=1698904800&v=beta&t=YHY4dC_XfZRmIJSBl_NZfYF-u0pmEHGp-WCG7Wo9Hgs"
-          }
+          src={"portfolio/images/batyr.jpg"}
           alt=""
           className="profile-picture"
         />
@@ -19,16 +17,16 @@ function Navbar() {
       </button>
       <ul className="nav-items" id="nav-items">
         <li className="nav-item">
-          <a href="#">ABOUT</a>
+          <a href="#about">ABOUT</a>
         </li>
         <li className="nav-item">
-          <a href="#">EXPERIENCE</a>
+          <a href="#experience">EXPERIENCE</a>
         </li>
         <li className="nav-item">
-          <a href="#">EDUCATION</a>
+          <a href="#education">EDUCATION</a>
         </li>
         <li className="nav-item">
-          <a href="#">PROJECTS</a>
+          <a href="#projects">PROJECTS</a>
         </li>
       </ul>
     </div>
