@@ -39,6 +39,16 @@
   justify-content: space-between;
 }
 
+/* .email {
+  display: block;
+  float: right;
+}
+
+.email * {
+  color: azure;
+  font-size: 20px;
+} */
+
 #btn-drop-down {
   display: none;
 }

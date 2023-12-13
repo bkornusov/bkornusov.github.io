@@ -22,13 +22,40 @@
   align-items: start;
 }
 
+.links * {
+  font-size: 20px;
+}
+
+.links a {
+  width: 300px;
+}
+
+.links a span {
+  padding-left: 0.5em;
+}
+
+span {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+p {
+  font-size: 18px;
+}
+
+i {
+  font-size: 25px;
+}
+
 .title {
+  position: relative;
+  left: -0.05em;
   font-size: 80px;
   font-weight: 400;
 }
 
 .sub-title {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 300;
 }
 
@@ -38,6 +65,33 @@
   height: 80px;
   background-color: azure;
   border-radius: 10px;
+}
+
+.job-description {
+  list-style-position: outside;
+  padding-left: 1em;
+}
+
+.job-description li {
+  display: block;
+  top: 1em;
+  padding-bottom: 0.25em;
+  display: list-item;
+  float: left;
+  clear: left;
+  padding-left: 0.25em;
+}
+
+.job-description li span {
+  font-size: 20px;
+  text-align: left;
+  top: -0.25em;
+  position: relative;
+}
+
+.job-description li::marker {
+  font-size: 25px;
+  content: "▸";
 }
 
 hr {

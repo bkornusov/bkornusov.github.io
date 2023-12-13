@@ -4,7 +4,7 @@ const Projects = () => {
       <p className="logo-text">
         <span className="title">Projects</span>
         <br />
-        <span className="sub-title">A</span>
+        <span className="sub-title">Under construction</span>
       </p>
     </div>
   );

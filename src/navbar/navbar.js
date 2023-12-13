@@ -5,11 +5,7 @@ function Navbar() {
   return (
     <div className="navbar-body align-items-center ps-3 pe-3">
       <a href="#" className="">
-        <img
-          src={"portfolio/images/batyr.jpg"}
-          alt=""
-          className="profile-picture"
-        />
+        <img src={"../images/batyr.jpg"} alt="" className="profile-picture" />
       </a>
       <button onClick={DropDown} className="btn" id="btn-drop-down">
         <i className="bi bi-list" id="drop-down-inactive"></i>
@@ -29,6 +25,10 @@ function Navbar() {
           <a href="#projects">PROJECTS</a>
         </li>
       </ul>
+      {/* <div className="email">
+        <i className="bi bi-envelope-fill pe-1"></i>
+        <span>batyrkornusov@gmail.com</span>
+      </div> */}
     </div>
   );
 }
