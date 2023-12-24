@@ -1,10 +1,16 @@
 .navbar-body {
-  background-color: rgb(11, 83, 127);
+  padding-left: 4.5em;
+  padding-right: 1em;
+  background-color: #176ca9;
   display: flex;
   vertical-align: middle;
   height: 100px;
   width: 100%;
   text-align: start;
+}
+
+.navbar-body button {
+  margin-right: 1em;
 }
 
 .profile-picture {
@@ -39,29 +45,28 @@
   justify-content: space-between;
 }
 
-/* .email {
-  display: block;
-  float: right;
+.footer-body {
+  height: 100px;
+  background-color: black;
 }
 
-.email * {
-  color: azure;
-  font-size: 20px;
-} */
+.footer-body span {}
 
 #btn-drop-down {
   display: none;
 }
 
-@media screen and (min-width: 581px) {
+@media screen and (min-width: 665px) {
   .nav-items {
+    margin-left: 1.8em;
     display: block !important;
   }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 664px) {
 
   .navbar-body {
+    padding-left: 3em;
     justify-content: space-between;
   }
 

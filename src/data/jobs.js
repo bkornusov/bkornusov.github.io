@@ -1,6 +1,7 @@
 var jobs = [
   {
-    title: "Software Engineer @ Russian School of Mathematics",
+    title: "Software Engineer @ ",
+    company: "Russian School of Mathematics",
     dates: "Jul. 2022 - Dec. 2022; Jan. 2021 - Jul. 2021",
     description: [
       "Two Co-op internships",
@@ -10,7 +11,8 @@ var jobs = [
     ],
   },
   {
-    title: "Python Developer @ QompaX",
+    title: "Python Developer @ ",
+    company: "QompaX",
     dates: "Jul. 2020 - Sept. 2020",
     description: [
       "Developed software for downloading, renaming, and organizing attachments from e-mail",
@@ -18,7 +20,8 @@ var jobs = [
     ],
   },
   {
-    title: "Web Developer @ Belti-Universal Communications",
+    title: "Web Developer @ ",
+    company: "Belti-Universal Communications",
     dates: "Jun. 2018 - Jul. 2018",
     description: [
       "Developed websites using in-house engine with HTML, CSS, Bootstrap, JavaScript (jQuery library)",

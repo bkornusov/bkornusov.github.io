@@ -21,7 +21,11 @@ const About = () => {
           <i className="bi bi-envelope-fill"></i>
           <span>batyrkornusov@gmail.com</span>
         </a>
-        <span id="copy-success" className="ps-2 pt-1" style={{ opacity: 0 }}>
+        <span
+          id="copy-success"
+          className="ps-2 pt-1"
+          style={{ opacity: 0, clear: "none" }}
+        >
           Copied!
         </span>
         <br />

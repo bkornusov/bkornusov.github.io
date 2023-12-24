@@ -3,7 +3,7 @@ import "./navbar.css";
 
 function Navbar() {
   return (
-    <div className="navbar-body align-items-center ps-3 pe-3">
+    <div className="navbar-body align-items-center">
       <a href="#" className="">
         <img src={"../images/batyr.jpg"} alt="" className="profile-picture" />
       </a>

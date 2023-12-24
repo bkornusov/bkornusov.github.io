@@ -9,11 +9,12 @@ const Experience = () => {
         <br />
         <div className="job-list">
           {jobs.map((job) => (
-            <div className="float-none">
+            <div>
               <div>
-                <span className="sub-title">{job.title}</span>
+                <span className="sub-title">
+                  {job.title} {job.company}
+                </span>
               </div>
-              <br />
               <div style={{ clear: "left" }}>{job.dates}</div>
               <br />
               <ul className="job-description mt-2">

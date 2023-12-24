@@ -1,16 +1,19 @@
 .home-body {
   height: 100%;
-  padding-left: 1.5em;
+  padding-left: 5em;
   padding-right: 1.5em;
   color: azure;
 }
 
 .home-body * {
   float: left;
+  clear: left;
+  display: inline-block;
 }
 
 .section {
   padding-bottom: 1em;
+  width: 100%;
 }
 
 .summary {
@@ -31,6 +34,7 @@
 }
 
 .links a span {
+  clear: none;
   padding-left: 0.5em;
 }
 
@@ -55,6 +59,8 @@ i {
 }
 
 .sub-title {
+  color: #51ecda;
+  position: relative;
   font-size: 40px;
   font-weight: 300;
 }
@@ -92,6 +98,31 @@ i {
 .job-description li::marker {
   font-size: 25px;
   content: "▸";
+}
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: black;
+  border-style: solid;
+  border-width: 5px;
+  max-width: inherit;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.project-item {
+  margin: 20px;
+  border: white;
+  border-style: solid;
+  border-width: 5px;
+  min-width: 300px;
+  max-width: 800px;
+  min-height: 200px;
+  max-height: 400px;
+  background-color: blue;
 }
 
 hr {
