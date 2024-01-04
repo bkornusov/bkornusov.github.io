@@ -14,6 +14,11 @@ const Projects = () => {
       </p>
       <a>
         <div className="project-container">
+          <div className="project-item">
+            <span>Chess</span>
+          </div>
+          <div className="project-item"></div>
+          <div className="project-item"></div>
           <div className="project-item"></div>
           <div className="project-item"></div>
         </div>

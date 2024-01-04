@@ -8,19 +8,15 @@ import Footer from "./navbar/footer";
 function App() {
   return (
     <div className="App">
-      <body className="">
-        <div className="">
-          <div className="d-block" id="navbar-wrapper">
-            <Navbar />
-          </div>
-          <div className="d-block" id="body-wrapper">
-            <Home />
-          </div>
-          <div>
-            <Footer />
-          </div>
-        </div>
-      </body>
+      <div id="navbar-wrapper">
+        <Navbar />
+      </div>
+      <div id="body-wrapper">
+        <Home />
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }
