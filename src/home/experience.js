@@ -15,9 +15,7 @@ const Experience = () => {
                   {job.title} {job.company}
                 </span>
               </div>
-              <br />
               <div style={{ clear: "left" }}>{job.dates}</div>
-              <br />
               <ul className="job-description mt-2">
                 {job.description.map((item) => (
                   <li>

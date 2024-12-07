@@ -79,6 +79,10 @@ i {
   border-radius: 10px;
 }
 
+.job-list div {
+  display: block;
+}
+
 .job-description {
   list-style-position: outside;
   padding-left: 1em;

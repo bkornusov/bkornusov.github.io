@@ -31,11 +31,18 @@
 }
 
 .nav-item {
+  transition-duration: 0.5s;
   display: block;
   padding: 1em;
   vertical-align: middle;
   list-style: none;
   float: left;
+}
+
+.nav-item:hover {
+  transition-duration: 0.5s;
+  font-size: 105%;
+  font-weight: 800;
 }
 
 .nav-item a {

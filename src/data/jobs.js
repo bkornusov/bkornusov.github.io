@@ -2,7 +2,7 @@ var jobs = [
   {
     title: "Software Engineer @ ",
     company: "Russian School of Mathematics",
-    dates: "Jul. 2022 - Dec. 2022; Jan. 2021 - Jul. 2021",
+    dates: "Jan. 2021 - Dec. 2022",
     description: [
       "Two Co-op internships",
       "Developed features for services in a Spring-based microservice architecture running under Kubernetes",
